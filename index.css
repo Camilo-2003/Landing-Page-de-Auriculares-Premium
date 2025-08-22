@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 10px;
+    background-color: #ffffff;
+}
+.items input {
+    padding: 8px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+main {
+    background-color: #f0f0f0;
+}
+.section-1 {
+    background-color: #53148d;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center; 
+}
+.contenido-producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 500px;
+    margin-bottom: 40px;
+}
+.nuevo-lanzamiento {
+    font-size: 14px;
+    padding: 6px 15px;
+    border-radius: 20px;
+    background-color: #43156f;
+    color: #b0b0b0;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.section-1 h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.section-1 span {
+    color: #9c55de;
+}
+.section-1 p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.botones {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.botones button {
+    padding: 12px 25px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    flex-grow: 1; 
+}
+
+.btn-comprar {
+    background-color: white;
+    color: #53148d;
+}
+
+.btn-comprar:hover {
+    background-color: #f0f0f0;
+}
+
+.btn-demo {
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+}
+
+.btn-demo:hover {
+    background-color: white;
+    color: #53148d;
+}
+.informacion {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px;
+}
+.info-item {
+    text-align: center;
+}
+.informacion h2 {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.informacion p {
+    font-size: 18px;
+    color: #b0b0b0;
+    margin-bottom: 0;
+}
