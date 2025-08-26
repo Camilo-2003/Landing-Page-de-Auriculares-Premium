@@ -464,6 +464,13 @@ body {
     margin-top: -30px;
     font-size: 14px;
 }
+.oferta-limitada ul {
+    display: flex;
+    list-style: none;
+    gap: 9px;
+    flex-direction: column;
+    padding: 0;
+}
 .oferta-limitada li i{
     margin-right: 5px;
     color: rgb(41, 227, 41);
